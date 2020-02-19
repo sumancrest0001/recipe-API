@@ -17,7 +17,6 @@ export default class Recipe {
       this.ingredients = res.data.extendedIngredients;
       this.cookingTime = res.data.cookingMinutes;
       this.servings = res.data.servings;
-      console.log(res);
 
     } catch (error) {
       alert(error);
@@ -33,5 +32,15 @@ export default class Recipe {
         cur.unit = ingredientUnit.replace(unit, unitsShort[index]);
       });
     });
+  }
+
+  updateServings(type) {
+    //Servings
+    const newServings = type === 'dec' ? this.servings - 1 : this.servings + 1;
+    // Ingredients 
+    this.ingredients.forEach(current => {
+      current.amount *= (newServings / this.servings);
+    });
+    this.servings = newServings;
   }
 }
