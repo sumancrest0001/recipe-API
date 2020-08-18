@@ -13,12 +13,12 @@ export const toggleLikeField = numLikes => {
 export const renderLike = like => {
   const markup = `
   <li>
-  <a class="likes__link" href="#${like.id}">
-      <figure class="likes__fig">
+  <a class="results__link" href="#${like.id}">
+      <figure class="results__fig">
           <img src="${like.img}" alt="${like.title}">
       </figure>
-      <div class="likes__data">
-          <h4 class="likes__name">${like.title}</h4>
+      <div class="results__data">
+          <h4 class="results__name">${like.title}</h4>
       </div>
   </a>
 </li>`;
