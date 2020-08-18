@@ -14,8 +14,6 @@ This project has this characteristics:
 - Javascript
 - Local storage
 
-
-
 ## Live Demo
 
 [Live Demo Link](https://github.com/sumancrest0001/recipe-API)
@@ -37,3 +35,8 @@ Contributions, issues and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/sumancrest0001/recipe-API/issues).
 
 ## Show your support
+Give a ⭐️ if you like this project!
+
+## Acknoweldgements
+- [Spoonacular API](https://spoonacular.com/food-api) for free recipes and amazing api.
+- [The Complete JavaScript Course 2020: Build Real Projects!](https://www.udemy.com/course/the-complete-javascript-course/)  by Jonas Schmedtmann.
