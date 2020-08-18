@@ -26,6 +26,10 @@ This project has this characteristics:
 
 - Github: [@sumancrest0001](https://github.com/sumancrest0001)
 
+- LinkedIn: [Suman Shrestha](https://www.linkedin.com/in/suman-shrestha0001/)
+
+- Email: suman.crest0001@gmail.com
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
