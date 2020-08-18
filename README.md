@@ -16,7 +16,7 @@ This project has this characteristics:
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/sumancrest0001/recipe-API)
+[Live Demo Link](https://sumancrest0001.github.io/recipe-API/)
 
 ## Author
 
